@@ -123,10 +123,9 @@ input[type='radio'].visually-hidden {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+  max-width: 292px;
+  margin: 0 auto;
   margin-bottom: 20px;
-}
-.header__title-br {
-  display: block;
 }
 .header__description {
   font-size: 18px;
@@ -255,6 +254,11 @@ input[type='radio'].visually-hidden {
   .authorization-column {
     margin-bottom: 118px;
   }
+  .header__description {
+    max-width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .partner__list-card:first-child {
     order: -2;
   }
@@ -280,6 +284,7 @@ input[type='radio'].visually-hidden {
   .header__title {
     font-size: 52px;
     margin-bottom: 30px;
+    max-width: 540px;
   }
   .header__description {
     font-size: 24px;
