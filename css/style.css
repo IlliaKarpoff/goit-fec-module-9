@@ -119,6 +119,7 @@ input[type='radio'].visually-hidden {
   margin-bottom: 34px;
 }
 .header__title {
+  letter-spacing: -0.1px;
   font-size: 30px;
   font-weight: bold;
   color: #fff;
@@ -245,17 +246,12 @@ input[type='radio'].visually-hidden {
   background-color: var(--main-color);
 }
 
-@media (max-width: 320px) {
-  .container {
-    padding: 0 14px;
-  }
-}
 @media (max-width: 767px) {
   .authorization-column {
     margin-bottom: 118px;
   }
   .header__description {
-    max-width: 292px;
+    max-width: 230px;
     margin-left: auto;
     margin-right: auto;
   }
